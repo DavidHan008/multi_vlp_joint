@@ -15,6 +15,9 @@ include_directories(/opt/holo/3rdparty/include/pcl-1.8)
 include_directories(
         ${catkin_INCLUDE_DIRS}
 )
+#或者
+#include_directories(/usr/include/pcl-1.7)
+
 
 
 include_directories(${PCL_INCLUDE_DIRS})
